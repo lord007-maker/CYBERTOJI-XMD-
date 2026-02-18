@@ -18,9 +18,9 @@ const config = {
   autoReply: false,
   sessionFolder: './auth_info_baileys',
   usePairingCode: true,
-  phoneNumber: '50943981073', // Format: '33612345678'
-  adminNumbers: ['50943981073@s.whatsapp.net', '129459608879262@lid', '50944908407@s.whatsapp.net'], // Admins
-  botAdmins: ['50943981073', '50944908407', '67078035882'], // Liste des numéros admin (sans @s.whatsapp.net)
+  phoneNumber: '', // Format: '33612345678'
+  adminNumbers: ['', '', ''], // Admins
+  botAdmins: ['', '', ''], // Liste des numéros admin (sans @s.whatsapp.net)
   dataFolder: './bot_data',
   maxViewOncePerUser: 50,
   commandCooldown: 2000, // 2 secondes entre les commandes
