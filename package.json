@@ -2,11 +2,11 @@
   "name": "cybertoji-xmd-bot",
   "version": "4.0.0",
   "description": "CyberToji XMD - Advanced WhatsApp Bot by Lord Dev Dostoevsky 🇭🇹",
-  "main": "index-v3.5-final.js",
+  "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node index-v3.5-final.js",
-    "dev": "nodemon index-v3.5-final.js",
+    "start": "node index.js",
+    "dev": "nodemon index.js",
     "clean": "rm -rf auth_info_baileys bot_data store",
     "backup": "tar -czf backup_$(date +%Y%m%d_%H%M%S).tar.gz bot_data auth_info_baileys store"
   },
